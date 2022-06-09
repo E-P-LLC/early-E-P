@@ -3,12 +3,14 @@
     src: url(Copperplate-Gothic-Std-31-BC.ttf);
 }
 
+
 body{
     background-color: black;
     color: white;
     
     font-family: Copperplate-Gothic;
     text-align: center;
+    font-weight: normal;
 
     
 }
