@@ -8,17 +8,17 @@ body{
     color: white;
     border-spacing: 50px,50px,50px,50px;
     font-family: Copperplate-Gothic;
+    text-align: center;
 
     
 }
 header{
     font-size: 72px;
-    color: black;
+    color: white;
     background-color: #3a3a3a;
     text-align: center;
 
 }
 header img{
-    border-radius: 120px;
-    border-color: white;
+    
 }
