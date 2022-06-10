@@ -8,7 +8,7 @@
 body{
     background-color: black;
     color: white;
-    
+    font-family: Copperplate-Gothic;
     
     text-align: center;
     
@@ -24,5 +24,7 @@ header{
 
 }
 header img{
+    width:450px;
+  
     
 }
