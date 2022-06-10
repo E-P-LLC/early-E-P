@@ -24,7 +24,11 @@ header{
 
 }
 header img{
-    width:450px;
-  
+
+        width:450px;
+        border-style:solid;
+        border-radius: 245px;
+        border-color: transparent;
+        border-width: 20px;
     
 }
