@@ -1,6 +1,7 @@
 @font-face {
     font-family: Copperplate-Gothic;
     src: url(Copperplate-Gothic-Std-31-BC.ttf);
+    font-weight: 100;
 }
 
 
@@ -10,7 +11,7 @@ body{
     
     font-family: Copperplate-Gothic;
     text-align: center;
-    font-weight: normal;
+    
 
     
 }
@@ -19,6 +20,7 @@ header{
     color: white;
     background-color: #323232;
     text-align: center;
+    font-weight: 100;
 
 }
 header img{
