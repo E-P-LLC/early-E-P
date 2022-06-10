@@ -21,14 +21,12 @@ header{
     background-color: #323232;
     text-align: center;
     font-weight: 400;
+    padding-top: 20px;
 
 }
 header img{
 
         width:450px;
-        border-style:solid;
-        border-radius: 245px;
-        border-color: transparent;
-        border-width: 20px;
+       
     
 }
