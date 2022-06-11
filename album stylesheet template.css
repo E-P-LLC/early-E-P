@@ -1,0 +1,60 @@
+@font-face {
+    font-family: Copperplate-Gothic;
+    src: url(Copperplate-Gothic-Std-31-BC.ttf);
+    font-weight:lighter;
+}
+
+body{
+    font-family: Copperplate-Gothic;
+    background-color: black;
+}
+header{
+    background-color: black;
+    text-align: right;
+}
+h1{
+    font-size: 60px;
+    text-align: center;
+    color:white;
+    font-weight:normal;
+    margin-top: 0px;
+
+}
+h2{
+    color:white;
+    font-size:40px;
+    font-weight:normal;
+}
+/* home button */
+
+
+
+main img{
+    width: 450px;
+    padding-top: 20px;
+}
+main{
+    text-align: center;
+}
+p1{
+    color:white;
+    font-size:20px;
+    text-align:center;
+ 
+}
+p{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    padding: 50px;
+}
+p3{ font-size: 60px;
+    color:white;
+    text-align: left;
+}
+/* logo */
+
+header img{
+    width:100px;
+    text-align: right;
+}
