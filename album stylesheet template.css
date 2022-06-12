@@ -6,17 +6,17 @@
 
 body{
     font-family: Copperplate-Gothic;
-    background-color: black;
+    background:linear-gradient(#323232, 15%, black);
     margin-top:0px;
     margin-bottom: 0px;
     margin-left: 0px;
     margin-right:0px;
 }
 header{
-    background-color: black;
+    
     text-align: right;
     padding-top: 20px;
-    background-color: #323232;
+ 
 }
 footer{
     margin-top:0px;

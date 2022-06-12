@@ -8,7 +8,7 @@ h1{
     font-weight: normal;
 }
 body{
-    background-color: black;
+    background:linear-gradient(#323232, 15%, black);
     color: white;
     font-family: Copperplate-Gothic;
     
@@ -24,7 +24,7 @@ body{
 header{
     font-size: 72px;
     color: white;
-    background-color: #323232;
+    ;
     text-align: center;
     font-weight: 400;
     padding-top: 20px;
@@ -63,6 +63,7 @@ a{
     color:white;
     font-size:45px;
 }
-.ablum-covers > img{
-    padding-top: 10px;
+
+#bg{
+    background: linear-gradient(#323232, 10%, black)
 }
