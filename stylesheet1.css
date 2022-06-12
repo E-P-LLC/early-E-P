@@ -34,11 +34,21 @@ header img{
     
 }
 main img{
-    width: 300px;
+   height: 200px;
     padding: 30px 10px;
 }
 h2{
     font-size: 60px;
     padding-bottom: 120px;
     font-weight:normal;
+}
+a{
+    text-decoration: none;
+    color:inherit;
+    
+}
+.album-covers{
+    position:relative;
+    text-align: center;
+    color:white;
 }
