@@ -83,6 +83,20 @@ a{
     display:inline-block;
     color:white;
     font-size:45px;
+    background-color: transparent;
+    transition:0.5s;
+    border-radius:0px;
+    border-style:none;
+    
+    
+    
+}
+.album-covers:hover{
+    background-color: #323232;
+    transition:0.5s;
+    border-radius: 10px;
+    border-style: none;
+
 }
 
 #bg{
