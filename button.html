@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+    @font-face {
+    font-family: Copperplate-Gothic;
+    src: url(Copperplate-Gothic-Std-31-BC.ttf);
+    font-weight:lighter;
+}
+.button {
+    font-family: Copperplate-Gothic;
+    display: inline;
+    border-radius: 4px;
+    background-color: #323232;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    
+  }
+  
+  .button span {
+    cursor: pointer;
+    display: inline;
+    position: absolute;
+    transition: 0.5s;
+    
+  }
+  
+  
+  .button span:after {
+    font-size: 28px;
+    content: '\2190';
+    position: relative;
+    opacity: 0;
+    top: 0;
+    right: 15px;
+    padding-left:20px;
+    transition: 0.5s;
+  }
+  
+  .button:hover span {
+   
+    transition:0.5s;
+  }
+  .button:hover p7 {
+    padding-left: 25px;
+    transition:0.5s;
+  }
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  
+  }
+  .button p7{
+      padding-left:0px;
+      transition:0.5s;
+  }
+  .button:hover p7:after {
+    opacity: 1;
+    right: 0;
+    
+    transition: 0.5s;
+  
+  }
+  
+  .span{
+      text-align: left;
+  }
+  
+  #centered{
+      text-align: center;
+      display:inline;
+  }
+  .center{
+      text-align: center;
+  }
+  .left{
+      text-align: left;
+  }
+  p7{
+      margin: 0px;
+  }
+
+
+</style>
+</head>
+<body>
+
+
+
+<button class="button" style="vertical-align: middle;">
+    <div id="centered">
+        <div class="left"><span></span></div><p7>Back</p7></div> 
+    
+</button>
+
+</body>
+</html>

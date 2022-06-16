@@ -11,6 +11,7 @@ body{
     margin-bottom: 0px;
     margin-left: 0px;
     margin-right:0px;
+    
 }
 header{
     
@@ -31,6 +32,7 @@ h1{
     font-weight:normal;
     margin-top: 0px;
     margin-bottom: -20px;
+    font-variant: small-caps;
 
 }
 h2{
@@ -66,9 +68,12 @@ p{
     font-size: 20px;
     padding: 50px;
 }
-p3{ font-size: 60px;
+p3{ font-size: 50px;
     color:white;
     text-align: left;
+    margin-left: 20px;
+    font-variant: small-caps;
+    
 }
 /* logo */
 
@@ -82,3 +87,161 @@ a{
     color:inherit;
     
 }
+.button {
+    font-family: Copperplate-Gothic;
+    display: inline;
+    border-radius: 4px;
+    background-color: #323232;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 300px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    
+  }
+  
+  .button span {
+    cursor: pointer;
+    display: inline;
+    position: absolute;
+    transition: 0.5s;
+    
+  }
+  
+  
+  .button span:after {
+    font-size: 28px;
+    content: '\2190';
+    position: relative;
+    opacity: 0;
+    top: 0;
+    right: 15px;
+    padding-left:0px;
+    transition: 0.5s;
+  }
+  
+  .button:hover span {
+   
+    transition:0.5s;
+  }
+  .button:hover p7 {
+    padding-left: 25px;
+    transition:0.5s;
+  }
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  
+  }
+  .button p7{
+      padding-left:0px;
+      transition:0.5s;
+  }
+  .button:hover p7:after {
+    opacity: 1;
+    right: 0;
+    
+    transition: 0.5s;
+  
+  }
+  
+  .span{
+      text-align: left;
+  }
+  
+  #centered{
+      text-align: center;
+      display:inline;
+  }
+  .center{
+      text-align: center;
+  }
+  .left{
+      text-align: left;
+  }
+  p7{
+      margin: 0px;
+  }
+  .button2 {
+    font-family: Copperplate-Gothic;
+    display: inline;
+    border-radius: 4px;
+    background-color: #323232;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 150px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    
+  }
+  
+  .button2 span {
+    cursor: pointer;
+    display: inline;
+    position: absolute;
+    transition: 0.5s;
+    
+  }
+  
+  
+  .button2 span:after {
+    font-size: 28px;
+    content: '\2190';
+    position: relative;
+    opacity: 0;
+    top: 0;
+    right: 15px;
+    padding-left:0px;
+    transition: 0.5s;
+  }
+  
+  .button2:hover span {
+   
+    transition:0.5s;
+  }
+  .button2:hover p7 {
+    padding-left: 25px;
+    transition:0.5s;
+  }
+  .button2:hover span:after {
+    opacity: 1;
+    right: 0;
+  
+  }
+  .button2 p7{
+      padding-left:0px;
+      transition:0.5s;
+  }
+  .button2:hover p7:after {
+    opacity: 1;
+    right: 0;
+    
+    transition: 0.5s;
+  
+  }
+  
+  .span{
+      text-align: left;
+  }
+  
+  #centered{
+      text-align: center;
+      display:inline;
+  }
+  .center{
+      text-align: center;
+  }
+  .left{
+      text-align: left;
+  }
+  p7{
+      margin: 0px;
+  }
