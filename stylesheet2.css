@@ -1,0 +1,131 @@
+@font-face {
+    font-family: Copperplate-Gothic;
+    src: url(Copperplate-Gothic-Std-31-BC.ttf);
+    font-weight: 100;
+}
+
+h1{
+    font-weight: normal;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+body{
+    background:linear-gradient(#323232, 15%, black);
+    color: white;
+    font-family: Copperplate-Gothic;
+    
+    text-align: center;
+    margin-top:0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right:0px;
+    font-variant:small-caps;
+
+    
+}
+header{
+    font-size: 72px;
+    color: white;
+    
+    text-align: center;
+    font-weight: 400;
+    padding-top: 20px;
+
+}
+header img{
+
+        width: 200px;
+        
+       padding-bottom: 0px;
+    
+}
+main img{
+   height: 200px;
+    padding: 10px 10px;
+}
+main{
+    font-variant: normal;
+    padding-top: -20px;
+    margin-top:-20px;
+}
+h2{
+    font-size: 28px;
+    padding-top: 0px;
+    padding-bottom: 10px;
+    font-weight:normal;
+    margin-top: 10px;
+    font-variant: small-caps;
+
+    
+}
+h3{
+    font-size: 48px;
+    padding-top: 0px;
+    padding-bottom: 10px;
+    font-weight:normal;
+    margin-top: 10px;
+    
+    
+}
+a{
+    text-decoration: none;
+    color:inherit;
+
+    
+}
+#covers{
+    text-align: center;
+    display:inline-block;
+}
+.album-covers{
+    position:relative;
+    text-align: center;
+    display:inline-block;
+    color:white;
+    font-size:45px;
+    background-color: transparent;
+    transition:0.5s;
+    border-radius:0px;
+    border-style:none;
+    
+    
+    
+}
+.album-covers:hover{
+    background-color: #323232;
+    transition:0.5s;
+    border-radius: 10px;
+    border-style: none;
+
+}
+
+#bg{
+    background: linear-gradient(#323232, 10%, black)
+}
+button{
+   
+        font-family: Copperplate-Gothic;
+        display: inline;
+        vertical-align: middle;
+        border-radius: 4px;
+        background-color: #323232;
+        border: none;
+        color: #FFFFFF;
+        text-align: center;
+        font-size: 28px;
+        padding: 20px;
+        width: 300px;
+        height: 130px;
+        transition: all 0.5s;
+        cursor: pointer;
+        margin: 5px;
+        
+      
+      
+}
+button:hover {
+    font-size: 38px;
+    transition:0.5s;
+   
+}
