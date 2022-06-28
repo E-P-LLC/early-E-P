@@ -92,6 +92,44 @@ a{
     
     
 }
+.landing-page{
+    text-align: left;
+    
+    border-radius:0px;
+    border-style:none;
+    position:relative;
+}
+.landing-page:before{
+    content:"";
+    background: linear-gradient(90deg,#323232,5%,transparent);
+    transition:0.5s;
+    opacity:0;
+    top:0px;
+    bottom:0px;
+    left:0px;
+    right:0px;
+    position:absolute;
+
+}
+.landing-page:hover{
+    
+ 
+  font-size: 48px;
+  transition: 0.5s;
+
+
+}
+.landing-page:hover:before{
+opacity:1;
+transition:0.5s;
+border-radius: 30px;
+    border-style: none;
+    
+    transition: 0.5s;
+
+    
+}
+
 .album-covers:hover{
     background-color: #323232;
     transition:0.5s;
@@ -128,4 +166,21 @@ button:hover {
     font-size: 38px;
     transition:0.5s;
    
+}
+
+.hovertest{
+
+font-size: 28px;
+    padding-top: 0px;
+    padding-bottom: 10px;
+    font-weight:normal;
+    margin-top: 10px;
+    font-variant: small-caps;
+    position:relative;
+    transition:0.5s;
+}
+.hovertest:hover{
+    font-size: 48px;
+    transition:0.5s;
+    padding-left: 20px;
 }
