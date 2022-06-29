@@ -192,14 +192,20 @@ button:hover {
     transition: 0.5s;
     border-style: none;
     border-color: transparent;
+    transform: scale(1);
+  
+   
+
 }
 
 .landing-page:hover img {
     transform: scale(1.1) translateX(5%);
+    
     transition: 0.5s;
     border-style: solid;
     border-color: transparent;
     border-radius: 30px;
+  
 }
 .landing-page-descriptions{
     opacity: 0;
