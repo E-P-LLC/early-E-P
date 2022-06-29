@@ -99,6 +99,7 @@ a{
     border-style:none;
     position:relative;
     transition:0.5s;
+   
 }
 .landing-page::before {
     content: "";
@@ -199,4 +200,27 @@ button:hover {
     border-style: solid;
     border-color: transparent;
     border-radius: 30px;
+}
+.landing-page-descriptions{
+    opacity: 0;
+    transition: 0.5s;
+    
+    font-size: 28px;
+    left: 500px;
+    position:absolute;
+    transform:translateY(10px);
+    
+    top: 20px;
+    z-index: -1;
+    width:500px;
+    text-align:right;
+
+    
+}
+.landing-page:hover .landing-page-descriptions{
+    opacity: 1;
+    transition: 0.5s;
+    transform:translateY(-10px);
+    text-align:right;
+
 }
