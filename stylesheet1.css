@@ -113,8 +113,8 @@ button{
     
 }
 .left-img{
+    
     width:35%;
-    height:35%;
     left:20px;
 }
 h1 img{
@@ -135,4 +135,20 @@ h1 img{
 }
 .aboutme{
     background: linear-gradient(transparent,#323232,50%,transparent);
+}
+.about-me-descriptions{
+    opacity:0;
+   opacity:1;
+    
+    
+    font-size: 2vw;
+    right:30%;
+    position:relative;
+ 
+    
+    
+   
+    text-align:right;
+
+    
 }
