@@ -112,3 +112,27 @@ button{
     font-family: Copperplate-Gothic;
     
 }
+.left-img{
+    width:35%;
+    height:35%;
+    left:20px;
+}
+h1 img{
+    width: 100%;
+    height:100%;
+    object-fit: cover;
+    display:inline;
+    margin:0px;
+    justify-content: left;
+    
+  
+   
+    border-radius:4vw;
+    border-style:solid;
+    border-color:transparent;
+    
+    
+}
+.aboutme{
+    background: linear-gradient(transparent,#323232,50%,transparent);
+}
