@@ -9,6 +9,7 @@ h1{
     padding-bottom: 10px;
     margin-bottom: 10px;
     margin-top: 10px;
+    display: inline block;
 }
 body{
     background:linear-gradient(#323232, 15%, black);
@@ -139,16 +140,119 @@ h1 img{
 .about-me-descriptions{
     opacity:0;
    opacity:1;
-    
+    transition:0.5s;
     
     font-size: 2vw;
     right:30%;
     position:relative;
- 
+    transform:translateY(10px);
     
-    
+    bottom:50px;
    
     text-align:right;
 
+    
+}
+
+
+h7{
+    animation: ht ease-in 1.5s;
+    float:right;
+   
+   
+    font-size: 2vw;
+ 
+  
+    object-position: right;
+    text-align:right;
+
+    display: inline;
+  
+    margin-right:10%;
+    
+   
+    width: 40%;
+    transition:0.5s;
+    padding-top:30px;
+    font-variant: small-caps;
+    
+    
+}
+@keyframes ht{
+   
+    0%{
+        opacity: 0;
+        
+padding-top:70px;
+    }
+    100%{
+        opacity: 1;
+        padding-top:30px;
+    
+}}
+.right-img{
+    
+    width:35%;
+    right:20px;
+    justify-content: right;
+    text-align: right;
+}
+h8{
+    animation: ht ease-in 1.5s;
+    float:left;
+   
+   
+    font-size: 2vw;
+ 
+  
+    
+    text-align:left;
+
+    display: inline;
+  
+    margin-left:10%;
+    
+   
+    width: 40%;
+    transition:0.5s;
+    padding-top:30px;
+    font-variant: small-caps;
+    
+    
+}
+@keyframes ht{
+
+    0%{
+        opacity: 0;
+        
+padding-top:70px;
+    }
+    100%{
+        opacity: 1;
+        padding-top:30px;
+    
+}}
+h5{
+    font-weight: normal;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    display: inline;
+    justify-content: right;
+}
+h5 img{
+    width: 100%;
+    height:100%;
+    object-fit: cover;
+    display:inline;
+    margin:0px;
+    justify-content: right;
+    
+  
+   
+    border-radius:4vw;
+    border-style:solid;
+    border-color:transparent;
+    
     
 }
