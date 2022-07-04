@@ -1,0 +1,220 @@
+
+@font-face {
+    font-family: Copperplate-Gothic;
+    src: url(Copperplate-Gothic-Std-31-BC.ttf);
+    font-weight: 100;
+}
+
+
+
+right-body{
+    float:right;
+    display: flex;
+}
+
+body{
+    background:linear-gradient(#323232, 15%, black);
+    color: white;
+    font-family: Copperplate-Gothic;
+    
+    text-align: center;
+    margin-top:0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right:0px;
+    font-variant:small-caps;
+
+    
+}
+header{
+    font-size: 72px;
+    color: white;
+    
+    text-align: center;
+    font-weight: 400;
+    padding-top: 20px;
+
+}
+header img{
+
+        width: 200px;
+        
+       padding-bottom: 0px;
+    
+}
+main{
+    font-variant: normal;
+ 
+}
+
+h1{
+    font-weight: normal;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+   
+}
+h2{
+    font-size: 48px;
+    padding-top: 0px;
+    padding-bottom: 10px;
+    font-weight:normal;
+    margin-top: 10px;
+    font-variant: small-caps;
+    
+}
+
+.about-me-heading-left{
+    margin-left: 20px;
+    padding-top: 30px;
+    text-align: left;
+    position:relative;
+    font-variant: normal;
+   
+    
+}
+.about-me-heading-right{
+    margin-right: 20px;
+    padding-top: 30px;
+    text-align: right;
+    position: relative;
+    font-variant: normal;
+    
+}
+left-body img{
+   
+        width: 100%;
+        height:100%;
+        object-fit: cover;
+        display:inline;
+        margin:0px;
+        justify-content: left;
+        
+      
+       
+        border-radius:4vw;
+        border-style:solid;
+        border-color:transparent;
+        margin-left: 20px;
+        
+        
+    
+}
+right-body img{
+
+        width: 100%;
+        height:100%;
+        object-fit: cover;
+        display:inline;
+        
+        justify-content: right;
+        
+      
+       
+        border-radius:4vw;
+        border-style:solid;
+        border-color:transparent;
+        
+        
+    }
+
+    
+  
+    
+   
+    
+  
+  
+
+.about-me-img-right-holder{
+    width: 100%;
+    height:100%;
+    object-fit: cover;
+    
+    margin:0px;
+    justify-content: right;
+    position:relative;
+  
+   top:0px;
+  right:0px;
+
+
+ 
+    
+    
+}
+.about-me-img-left{
+    width: 35%;
+    left: 20px;
+
+}
+.about-me-img-right{
+    width: 35%;
+   
+position:relative;
+    top:0px;
+    right: 29px;
+    float:right;
+
+
+}
+
+.about-me-description-left{  
+    animation: ht ease-in 1s;
+    float:left;
+   
+   
+    font-size: 2vw;
+ 
+  
+    object-position: left;
+    text-align:left;
+
+    display: inline;
+  
+    margin-left:10%;
+    
+   
+    width: 40%;
+    transition:0.5s;
+    padding-top:30px;
+    font-variant: small-caps;
+    z-index: 1;  
+}
+.about-me-description-right{   
+    animation: ht ease-in 1s;
+    float:right;
+   
+   
+    font-size: 2vw;
+ 
+  
+    object-position: right;
+    text-align:right;
+
+    display: inline;
+  
+    margin-right:10%;
+    
+   
+    width: 40%;
+    transition:0.5s;
+    padding-top:30px;
+    font-variant: small-caps;
+    z-index: 1; 
+}
+.aboutme{
+    background: linear-gradient(transparent,#323232,50%,transparent);
+    float:none;
+}
+@keyframes ht{
+
+    0%{
+        opacity: 0;
+        transform: translateY(+30px);
+
+    }
+    100%{
+        opacity: 1;
+        ;
+}}

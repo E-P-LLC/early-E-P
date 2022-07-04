@@ -4,13 +4,10 @@
     font-weight: 100;
 }
 
-h1{
-    font-weight: normal;
-    padding-bottom: 10px;
-    margin-bottom: 10px;
-    margin-top: 10px;
-    display: inline block;
-}
+
+
+
+
 body{
     background:linear-gradient(#323232, 15%, black);
     color: white;
@@ -113,6 +110,33 @@ button{
     font-family: Copperplate-Gothic;
     
 }
+
+
+
+.about-me-descriptions{
+    opacity:0;
+   opacity:1;
+    transition:0.5s;
+    
+    font-size: 2vw;
+    right:30%;
+    position:relative;
+    transform:translateY(10px);
+    
+    bottom:50px;
+   
+    text-align:right;
+
+    
+}
+h1{
+    font-weight: normal;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+   
+}
+
 .left-img{
     
     width:35%;
@@ -134,23 +158,35 @@ h1 img{
     
     
 }
-.aboutme{
-    background: linear-gradient(transparent,#323232,50%,transparent);
-}
-.about-me-descriptions{
-    opacity:0;
-   opacity:1;
-    transition:0.5s;
-    
-    font-size: 2vw;
-    right:30%;
-    position:relative;
-    transform:translateY(10px);
-    
-    bottom:50px;
-   
-    text-align:right;
+h5{
+    font-weight: normal;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  
+    justify-content: right;
+ }
+    .right-img{
+    justify-content: right;
+    width:35%;
+   left:80%;
+ 
 
+}
+h5 img{
+    width: 100%;
+    height:100%;
+    object-fit: cover;
+    display:inline-block;
+  
+    justify-content: right;
+    
+   
+
+    border-radius:4vw;
+    border-style:solid;
+    border-color:transparent;
+    
     
 }
 
@@ -175,7 +211,7 @@ h7{
     transition:0.5s;
     padding-top:30px;
     font-variant: small-caps;
-    
+    z-index: 1;
     
 }
 @keyframes ht{
@@ -190,13 +226,7 @@ padding-top:70px;
         padding-top:30px;
     
 }}
-.right-img{
-    
-    width:35%;
-    right:20px;
-    justify-content: right;
-    text-align: right;
-}
+
 h8{
     animation: ht ease-in 1.5s;
     float:left;
@@ -205,7 +235,7 @@ h8{
     font-size: 2vw;
  
   
-    
+    object-position: left;
     text-align:left;
 
     display: inline;
@@ -217,7 +247,7 @@ h8{
     transition:0.5s;
     padding-top:30px;
     font-variant: small-caps;
-    
+    z-index: 1;
     
 }
 @keyframes ht{
@@ -232,27 +262,6 @@ padding-top:70px;
         padding-top:30px;
     
 }}
-h5{
-    font-weight: normal;
-    padding-bottom: 10px;
-    margin-bottom: 10px;
-    margin-top: 10px;
-    display: inline;
-    justify-content: right;
-}
-h5 img{
-    width: 100%;
-    height:100%;
-    object-fit: cover;
-    display:inline;
-    margin:0px;
-    justify-content: right;
-    
-  
-   
-    border-radius:4vw;
-    border-style:solid;
-    border-color:transparent;
-    
-    
+.aboutme{
+    background: linear-gradient(transparent,#323232,50%,transparent);
 }
