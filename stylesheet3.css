@@ -11,6 +11,19 @@ right-body{
     float:right;
     display: flex;
 }
+left-body2{
+    FLOAT:LEFT;
+    display:flex;
+    
+}
+footer{
+    margin-top: 200px;
+    float:left;
+    text-align:center;
+
+    bottom:10px;
+
+}
 
 body{
     background:linear-gradient(#323232, 15%, black);
@@ -117,7 +130,25 @@ right-body img{
         
         
     }
-
+    left-body2 img{
+   
+        width: 100%;
+        height:100%;
+        object-fit: cover;
+        display:inline;
+        margin:0px;
+        justify-content: left;
+        
+      
+       
+        border-radius:4vw;
+        border-style:solid;
+        border-color:transparent;
+        margin-left: 20px;
+        
+        
+    
+}
     
   
     
@@ -207,11 +238,20 @@ position:relative;
     background: linear-gradient(transparent,#323232,50%,transparent);
     float:none;
 }
+.aboutme2{
+    background: linear-gradient(transparent,#323232,50%,transparent);
+    float:none;
+}
+.aboutme3{
+    background: linear-gradient(transparent,#323232,50%,transparent);
+    float:none;
+    padding-bottom:200px;
+}
 @keyframes ht{
 
     0%{
         opacity: 0;
-        transform: translateY(+30px);
+        
 
     }
     100%{
