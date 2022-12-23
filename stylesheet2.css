@@ -101,6 +101,7 @@ a{
     transition:0.5s;
    
 }
+
 .landing-page::before {
     content: "";
     background: linear-gradient(90deg, #323232, 5%, transparent);
@@ -118,13 +119,14 @@ a{
  
   
   transition: 0.5s;
-  
+
 
 
 }
 .landing-page:hover:before{
 opacity:1;
 transition:0.5s;
+
 border-radius: 30px;
     border-style: none;
     
@@ -214,6 +216,7 @@ height:150;
     font-variant: small-caps;
     position: relative;
     transition: 0.5s;
+    margin-right:20px;
 }
 .landing-page-title2 {
     font-size: 34px;
@@ -224,12 +227,14 @@ height:150;
     font-variant: small-caps;
     position: relative;
     transition: 0.5s;
+    margin-right:20px;
 }
 
 .landing-page:hover .landing-page-title {
     font-size: 56px;
     transition: 0.5s;
     transform: translateX(20px);
+    
 }
 .landing-page img {
     transition: 0.5s;
@@ -244,6 +249,7 @@ height:150;
     font-size: 48px;
     transition: 0.5s;
     transform: translateX(20px);
+   
 }
 
 .landing-page:hover img {
@@ -262,7 +268,7 @@ height:150;
     font-size: 28px;
     left: 500px;
     position:absolute;
-    transform:translateY(10px);
+    
     
     top: 20px;
     z-index: -1;
